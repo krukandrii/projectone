@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    outline: none;
+}
+
+a,p,label,span
+{
+    font-size: 14px;
+    color: #000;
+}
+
+button{
+    padding: 15px 30px;
+    border-radius: 4px;
+}
+li{
+    list-style: none;
+}
+.btn{
+    padding: 12px 23px;
+    background: #532ff9;
+    color: white;
+    font-weight: 600;
+}
+mark {
+    background: #feb532;
+    padding: 0 3px;
+   }
+
+
+.showing_menu{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0px;
+    left: 0px;
+    background-color: black;
+    transform: translateY(-100%);
+    transition: all 1s;
+    z-index: 10;
+}
+.showing_menu *{
+    color: white;
+}
+.close_button{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 15px;
+    height: 15px;
+
+}
+footer *{
+    font-size: 24px;
+    font-weight: 600;
+    margin: 30px;
+}

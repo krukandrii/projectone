@@ -1,0 +1,104 @@
+header{
+    margin: 27px auto;
+    padding: 0px 15px;
+}
+header span{
+    color: #301c8e;
+    font-size: 28px;
+    font-weight: 700;
+}
+nav{
+    width: 540px;
+}
+nav a{
+    font-size: 15px;
+}
+.number{
+    color: #5360fc;
+    font-weight: 600;
+}
+.btn{
+    font-size: 12px;
+}
+.signup{
+    background-color: #f5f4f7;
+    color: #301c8e;
+    margin: 0px 10px;
+}
+a img{
+    display: none;
+    width: 20px;
+    height: 20px;
+}
+.menu_button{
+    display: none;
+}
+.aside_container{
+    padding: 110px 10px 0px 44px;
+    background-color: #181355;
+}
+aside{
+    min-height: 480px;
+}
+aside .btn{
+    width: fit-content;
+    margin: 0px auto;
+    margin-bottom: 20px;
+    padding: 18px 52px;
+}
+aside p{
+    font-size: 17px;
+    color: white;
+    margin: 27px 0px;
+}
+
+h1{
+    line-height: 1.2;
+    font-size: 46px;
+    color: white;
+}
+.image_container{
+    width: 614px;
+    flex: none;
+    
+}
+.image_container img{
+    width: inherit;
+    height: 100%;
+}
+p img{
+    width: 134px;
+    margin: auto;
+}
+@media screen and (max-width: 1015px){
+    .whrapper>a img{
+        display: block;
+    }
+    .number{
+        display: none;
+    }
+} 
+@media screen and (max-width: 905px){
+     a img{
+        display: block;
+    }
+    .number{
+        display: none;
+    }
+    .nav_menu{
+        display: none;
+    }
+    .menu_button{
+        display: block;
+    }
+    .showing_menu a{
+        margin: 15px;
+    }
+    .no_wrp{
+        flex-wrap: wrap;
+    }
+    .image_container{
+        width: 100%;
+        background-size: contain;
+    }
+} 

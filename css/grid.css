@@ -1,0 +1,80 @@
+.container
+{
+    height: inherit;
+    position: relative;
+    width: -webkit-fill-available;
+    margin: 0px auto;
+}
+
+.note_cont{
+    max-width: 1340px;
+}
+.xl{
+    max-width: 1140px;
+}
+
+.lg{
+    max-width: 960px;
+}
+.md{
+    max-width: 720px;
+}
+.sm{
+    max-width: 540px;
+}
+
+
+
+.flex
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.no_wrp{
+    flex-wrap: nowrap;
+}
+
+.flex_c
+{
+    justify-content: center;
+}
+
+.flex_e
+{
+    justify-content: flex-end;
+}
+
+.flex_sb
+{
+    justify-content: space-between;
+}
+
+.flex_sa
+{
+    justify-content: space-around;
+}
+
+.flex_col
+{
+    flex-direction: column;
+}
+.flex_al_s
+{
+    align-items: flex-start;
+}
+
+.flex_al_c
+{
+    align-items: center;
+}
+
+.flex_al_e
+{
+    align-items: flex-end;
+}
+
+
+
+
+
+
